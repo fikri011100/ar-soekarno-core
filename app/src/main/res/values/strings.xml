@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ARTry</string>
+    <string name="text_hello">Selamat Datang di Garasi Mobil Ir. Soekarno</string>
+    <string name="text_top_menu">Garasi Mobil Kepresidenan Ir. Soekarno</string>
+    <string name="text_hello_detail">Aplikasi ini menampilkan koleksi mobil kepresidenan Ir. Soekarno yang merupakan bagian dari Museum Joang45 Jakarta.</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue purus congue lorem laoreet tristique sed at nulla. Fusce lacinia turpis eu sagittis varius. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur at congue augue. Ut ultrices gravida pulvinar. Aliquam vel eleifend ex. Curabitur elementum ante consequat, fringilla turpis sed, lobortis urna. Nunc porta augue in magna imperdiet, vel sagittis nibh commodo. Mauris imperdiet enim ex, a varius lectus aliquet sit amet. Maecenas est felis, condimentum cursus elementum vel, ultricies id leo. Praesent ipsum leo, mattis ut dolor vitae, hendrerit facilisis nisl. Pellentesque pulvinar egestas elementum. Ut sed auctor velit, at tristique lectus. Nulla facilisi. Integer feugiat vulputate mauris sed ultricies.</string>
+</resources>

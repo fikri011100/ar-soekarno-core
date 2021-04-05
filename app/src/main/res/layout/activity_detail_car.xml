@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".detail.DetailCarActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_top"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_home"
+            app:layout_constraintBottom_toBottomOf="@+id/guideline1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.45" />
+
+        <LinearLayout
+            android:id="@+id/linear_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@drawable/background_black"
+            android:paddingLeft="7dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_back"
+                android:layout_margin="5dp"
+                app:tint="@color/white" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_ukuran_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="Ukuran"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/guideline1" />
+
+        <TextView
+            android:id="@+id/text_ukuran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:text="uk"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintLeft_toLeftOf="@+id/text_ukuran_desc"
+            app:layout_constraintTop_toBottomOf="@+id/text_ukuran_desc" />
+
+        <TextView
+            android:id="@+id/text_berat_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="Berat"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toRightOf="@id/text_ukuran_desc"
+            app:layout_constraintRight_toLeftOf="@+id/text_buatan_desc"
+            app:layout_constraintTop_toBottomOf="@+id/guideline1" />
+
+        <TextView
+            android:id="@+id/text_berat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:text="uk"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintLeft_toLeftOf="@+id/text_berat_desc"
+            app:layout_constraintTop_toBottomOf="@+id/text_berat_desc" />
+
+        <TextView
+            android:id="@+id/text_buatan_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="Buatan"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toRightOf="@+id/text_berat_desc"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/guideline1" />
+
+        <TextView
+            android:id="@+id/text_buatan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:text="uk"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintLeft_toLeftOf="@+id/text_buatan_desc"
+            app:layout_constraintTop_toBottomOf="@+id/text_buatan_desc" />
+
+        <Button
+            android:id="@+id/btn_show_ar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:backgroundTint="@color/black"
+            android:fontFamily="@font/poppins_bold"
+            android:padding="16dp"
+            android:text="Lihat AR"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_buatan" />
+
+        <TextView
+            android:id="@+id/text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="24dp"
+            android:text="Nama"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="24sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_show_ar" />
+
+        <TextView
+            android:id="@+id/text_name_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="5dp"
+            android:text="mobil blabla"
+            android:textColor="@color/black"
+            android:fontFamily="@font/roboto_regular"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_name" />
+
+        <TextView
+            android:id="@+id/text_desc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="24dp"
+            android:text="lorem ipsum"
+            android:textColor="@color/black"
+            android:fontFamily="@font/roboto_regular"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_name_desc" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
