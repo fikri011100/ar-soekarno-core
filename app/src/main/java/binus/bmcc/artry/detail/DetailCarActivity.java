@@ -38,17 +38,18 @@ public class DetailCarActivity extends AppCompatActivity {
         btn.setOnClickListener(v -> {
             Intent intent = new Intent(getApplicationContext(), MainActivity.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            intent.putExtra("ar", getIntent().getStringExtra("ar"));
             startActivity(intent);
         });
     }
 
     private void setData() {
-        textUkuran.setText("20 x 20 x 19 m");
-        textBerat.setText("45 kg");
-        textBuatan.setText("Amerika");
-        textNama.setText("Buick 8");
-        textDescNama.setText("Mobil Kepresidenan Pertama");
-        textDesc.setText(getString(R.string.lorem_ipsum));
-        imageView.setImageResource(R.drawable.image_buick_detail);
+        textUkuran.setText(getIntent().getStringExtra("ukuran"));
+        textBerat.setText(getIntent().getStringExtra("berat"));
+        textBuatan.setText(getIntent().getStringExtra("buatan"));
+        textNama.setText(getIntent().getStringExtra("nama"));
+        textDescNama.setText(getIntent().getStringExtra("keterangan"));
+        textDesc.setText(getIntent().getStringExtra("desc"));
+        imageView.setImageResource(getIntent().getIntExtra("image", 0));
     }
 }

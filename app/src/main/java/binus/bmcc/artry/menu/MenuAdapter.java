@@ -50,6 +50,14 @@ public class MenuAdapter extends CardSliderAdapter<MenuAdapter.MenuViewHolder> {
         menuViewHolder.cons.setOnClickListener(v -> {
             Intent intent = new Intent(context, DetailCarActivity.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            intent.putExtra("nama", menu.get(i).getNamaMobil());
+            intent.putExtra("keterangan", menu.get(i).getKeterangan());
+            intent.putExtra("ar", menu.get(i).getAr());
+            intent.putExtra("berat", menu.get(i).getBerat());
+            intent.putExtra("buatan", menu.get(i).getBuatan());
+            intent.putExtra("desc", menu.get(i).getDesc());
+            intent.putExtra("image", menu.get(i).getImage());
+            intent.putExtra("ukuran", menu.get(i).getUkuran());
             context.startActivity(intent);
         });
     }

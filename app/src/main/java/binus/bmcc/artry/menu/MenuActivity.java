@@ -25,8 +25,8 @@ public class MenuActivity extends AppCompatActivity {
     }
 
     private void addArray() {
-        movies.add(new Menu("Buick 8", "Mobil Ir Soekarno Pertama", R.drawable.buick));
-        movies.add(new Menu("Buick 8", "Mobil Ir Soekarno Pertama", R.drawable.buick));
-        movies.add(new Menu("Buick 8", "Mobil Ir Soekarno Pertama", R.drawable.buick));
+        movies.add(new Menu("Buick 8", "Mobil Ir Soekarno Pertama", "20 x 20 x 19 m", "45 kg", "Amerika", "untitled.sfb", getString(R.string.lorem_ipsum),  R.drawable.buick));
+        movies.add(new Menu("DeSoto 1938", "Mobil Ir Soekarno Kedua", "20 x 20 x 19 m", "45 kg", "Amerika", "untitled.sfb", getString(R.string.lorem_ipsum),  R.drawable.buick));
+        movies.add(new Menu("Imperial 1939", "Mobil Ir Soekarno Ketiga", "20 x 20 x 19 m", "45 kg", "Amerika", "untitled2.sfb", getString(R.string.lorem_ipsum),  R.drawable.imperial));
     }
 }
