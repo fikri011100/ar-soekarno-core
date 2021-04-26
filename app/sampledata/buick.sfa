@@ -1,7 +1,85 @@
 {
   materials: [
     {
-      name: 'Material_#16',
+      name: 'Material_#28',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material_#29',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.078431000000000001,
+            0.078431000000000001,
+            0.078431000000000001,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material_#30',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.078431000000000001,
+            0.078431000000000001,
+            0.078431000000000001,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material_#32',
       parameters: [
         {
           baseColor: null,
@@ -34,9 +112,9 @@
         },
         {
           baseColorTint: [
-            0.98823499999999997,
-            0.85882400000000003,
-            0.33333299999999999,
+            0.039216000000000001,
+            0.039216000000000001,
+            0.039216000000000001,
             1,
           ],
         },
@@ -53,7 +131,7 @@
       source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
     },
     {
-      name: 'brake_light',
+      name: 'brakelights',
       parameters: [
         {
           baseColor: null,
@@ -105,7 +183,7 @@
       source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
     },
     {
-      name: 'tire_paint',
+      name: 'headlights',
       parameters: [
         {
           baseColor: null,
@@ -113,34 +191,8 @@
         {
           baseColorTint: [
             1,
-            1,
-            1,
-            1,
-          ],
-        },
-        {
-          metallic: 0,
-        },
-        {
-          roughness: 1,
-        },
-        {
-          opacity: null,
-        },
-      ],
-      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
-    },
-    {
-      name: 'tires',
-      parameters: [
-        {
-          baseColor: null,
-        },
-        {
-          baseColorTint: [
-            0.078431000000000001,
-            0.078431000000000001,
-            0.078431000000000001,
+            0.98039200000000004,
+            0.65882399999999997,
             1,
           ],
         },
@@ -190,10 +242,9 @@
       'Orientation',
     ],
     collision: {},
-    file: 'sampledata/untitled2.obj',
-    name: 'untitled2',
+    file: 'sampledata/buick.obj',
+    name: 'buick',
     recenter: 'root',
-    scale: 0.41901699999999997,
   },
   version: '0.54:2',
 }

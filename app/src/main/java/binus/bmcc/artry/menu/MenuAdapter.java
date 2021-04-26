@@ -56,7 +56,7 @@ public class MenuAdapter extends CardSliderAdapter<MenuAdapter.MenuViewHolder> {
             intent.putExtra("berat", menu.get(i).getBerat());
             intent.putExtra("buatan", menu.get(i).getBuatan());
             intent.putExtra("desc", menu.get(i).getDesc());
-            intent.putExtra("image", menu.get(i).getImage());
+            intent.putExtra("image", menu.get(i).getImageDetail());
             intent.putExtra("ukuran", menu.get(i).getUkuran());
             context.startActivity(intent);
         });

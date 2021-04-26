@@ -50,24 +50,18 @@ dependencies {
     implementation 'com.github.IslamKhSh:CardSlider:1.0.1'
 }
 
-sceneform.asset('sampledata/car_obj.obj',
+sceneform.asset('sampledata/buick.obj',
         'default',
-        'sampledata/car_obj.sfa',
-        'src/main/assets/car_obj')
+        'sampledata/buick.sfa',
+        'src/main/assets/buick')
 
-sceneform.asset('sampledata/buick8.obj',
+sceneform.asset('sampledata/desoto.obj',
         'default',
-        'sampledata/buick8.sfa',
-        'src/main/assets/buick8')
+        'sampledata/desoto.sfa',
+        'src/main/assets/desoto')
 
 
-
-sceneform.asset('sampledata/untitled.obj',
+sceneform.asset('sampledata/imperial.obj',
         'default',
-        'sampledata/untitled.sfa',
-        'src/main/assets/untitled')
-
-sceneform.asset('sampledata/untitled2.obj',
-        'default',
-        'sampledata/untitled2.sfa',
-        'src/main/assets/untitled2')
+        'sampledata/imperial.sfa',
+        'src/main/assets/imperial')

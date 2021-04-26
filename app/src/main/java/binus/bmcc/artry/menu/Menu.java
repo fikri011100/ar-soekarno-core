@@ -2,9 +2,9 @@ package binus.bmcc.artry.menu;
 
 public class Menu {
     private String namaMobil, keterangan, ukuran, berat, buatan, ar, desc;
-    private int image;
+    private int image, imageDetail;
 
-    public Menu(String namaMobil, String keterangan, String ukuran, String berat, String buatan, String ar, String desc, int image) {
+    public Menu(String namaMobil, String keterangan, String ukuran, String berat, String buatan, String ar, String desc, int image,int imageDetail) {
         this.namaMobil = namaMobil;
         this.keterangan = keterangan;
         this.ukuran = ukuran;
@@ -13,6 +13,7 @@ public class Menu {
         this.ar = ar;
         this.desc = desc;
         this.image = image;
+        this.imageDetail = imageDetail;
     }
 
     public String getNamaMobil() {
@@ -77,5 +78,13 @@ public class Menu {
 
     public void setImage(int image) {
         this.image = image;
+    }
+
+    public int getImageDetail() {
+        return imageDetail;
+    }
+
+    public void setImageDetail(int imageDetail) {
+        this.imageDetail = imageDetail;
     }
 }

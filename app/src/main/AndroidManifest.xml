@@ -15,15 +15,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ARTry">
-        <activity android:name=".detail.DetailCarActivity"></activity>
-        <activity android:name=".menu.MenuActivity" />
-        <activity android:name=".home.HomeActivity">
+        <activity android:name=".about.AboutActivity"></activity>
+        <activity android:name=".detail.DetailCarActivity" />
+        <activity android:name=".menu.MenuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".home.HomeActivity"></activity>
         <activity android:name=".MainActivity" />
 
         <meta-data

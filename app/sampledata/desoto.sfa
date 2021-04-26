@@ -1,16 +1,16 @@
 {
   materials: [
     {
-      name: 'Material_#28',
+      name: 'Material_#18',
       parameters: [
         {
           baseColor: null,
         },
         {
           baseColorTint: [
-            1,
-            1,
-            1,
+            0.58799999999999997,
+            0.58799999999999997,
+            0.58799999999999997,
             1,
           ],
         },
@@ -27,16 +27,16 @@
       source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
     },
     {
-      name: 'Material_#29',
+      name: 'body.001',
       parameters: [
         {
           baseColor: null,
         },
         {
           baseColorTint: [
-            0.078431000000000001,
-            0.078431000000000001,
-            0.078431000000000001,
+            0.98823499999999997,
+            0.83137300000000003,
+            0.196078,
             1,
           ],
         },
@@ -53,7 +53,7 @@
       source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
     },
     {
-      name: 'Material_#30',
+      name: 'brake_light',
       parameters: [
         {
           baseColor: null,
@@ -79,33 +79,7 @@
       source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
     },
     {
-      name: 'body',
-      parameters: [
-        {
-          baseColor: null,
-        },
-        {
-          baseColorTint: [
-            0.039216000000000001,
-            0.039216000000000001,
-            0.039216000000000001,
-            1,
-          ],
-        },
-        {
-          metallic: 0,
-        },
-        {
-          roughness: 1,
-        },
-        {
-          opacity: null,
-        },
-      ],
-      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
-    },
-    {
-      name: 'frame',
+      name: 'frame.001',
       parameters: [
         {
           baseColor: null,
@@ -131,7 +105,111 @@
       source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
     },
     {
-      name: 'window',
+      name: 'headlights.001',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            1,
+            0.95686300000000002,
+            0.72156900000000002,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'platform',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.078431000000000001,
+            0.078431000000000001,
+            0.078431000000000001,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'tire_paint',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'tires',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.078431000000000001,
+            0.078431000000000001,
+            0.078431000000000001,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'window.001',
       parameters: [
         {
           baseColor: null,
@@ -164,8 +242,8 @@
       'Orientation',
     ],
     collision: {},
-    file: 'sampledata/untitled.obj',
-    name: 'untitled',
+    file: 'sampledata/desoto.obj',
+    name: 'desoto',
     recenter: 'root',
   },
   version: '0.54:2',
